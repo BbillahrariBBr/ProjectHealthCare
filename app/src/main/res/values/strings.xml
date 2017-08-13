@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">ProjectHealthCare</string>
+
+    <!-- Slide1 title and Description-->
+
+    <string name="slide_1_title">Disease Detection</string>
+    <string name="slide_1_desc">Explore the most common disease detection</string>
+
+    <!-- Slide2 title and Description-->
+
+    <string name="slide_2_title">Primary Treatment</string>
+    <string name="slide_2_desc">Explore the most common primary treatment </string>
+
+    <!-- Slide3 title and Description-->
+
+    <string name="slide_3_title">Food Plan</string>
+    <string name="slide_3_desc">Explore the most common food plan </string>
+
+    <!-- Slide4 title and Description-->
+
+    <string name="slide_4_title">Pregnancy Care</string>
+    <string name="slide_4_desc">Explore the most attractive pregnancy care</string>
+
+    <!-- Slide5 title and Description-->
+
+    <string name="slide_5_title">Emergency Contacts</string>
+    <string name="slide_5_desc">Explore the most common emergency contacts</string>
+</resources>
