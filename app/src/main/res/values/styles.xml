@@ -8,4 +8,13 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <!-- add Tusar design Style-->
+    <style name="MyButton" parent="Theme.AppCompat.Light">
+        <item name="colorControlHighlight">@color/orange</item>
+        <item name="colorButtonNormal">@color/purple</item>
+
+
+
+    </style>
+
 </resources>

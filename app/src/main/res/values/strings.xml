@@ -27,7 +27,7 @@
     <string name="slide_5_desc">Explore the most common emergency contacts</string>
 
     <!-- sharedPreference-->
-    
+
     <string name="my_preference">"com.bakibillah.example.com.Mypref"</string>
     <string name="my_preference_key">"com.bakibillah.example.com.MyprefKey"</string>
 </resources>
