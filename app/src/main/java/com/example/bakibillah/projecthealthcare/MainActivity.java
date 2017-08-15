@@ -26,7 +26,7 @@ public class MainActivity extends AppCompatActivity {
         btnFoodPlan = (Button)findViewById(R.id.button_pregnancycare);
         btnPrimaryTreatment = (Button)findViewById(R.id.button_primarytreatment);
 
-//        new PreferenceManager(this).clearPreference();
+       // new PreferenceManager(this).clearPreference();
 //        finish();
     }
 

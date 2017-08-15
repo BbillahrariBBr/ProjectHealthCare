@@ -21,7 +21,7 @@
         <activity android:name=".PrimaryTreatmentActivity" />
         <activity android:name=".FoodPlanActivity" />
         <activity android:name=".PregnancyCareActivity" />
-        <activity android:name=".EmergencyContactActivity"></activity>
+        <activity android:name=".EmergencyContactActivity" />
     </application>
 
 </manifest>

@@ -30,4 +30,9 @@
 
     <string name="my_preference">"com.bakibillah.example.com.Mypref"</string>
     <string name="my_preference_key">"com.bakibillah.example.com.MyprefKey"</string>
+
+    <!-- text exmple string add-->
+    <string name="ex_1">Ex: Fever over 100.4 F</string>
+    <string name="ex_2">Ex: Sore throat</string>
+    <string name="ex_3">Ex: Nasal congestion</string>
 </resources>
