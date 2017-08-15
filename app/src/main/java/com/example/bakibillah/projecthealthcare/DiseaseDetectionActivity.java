@@ -211,7 +211,7 @@ public class DiseaseDetectionActivity extends AppCompatActivity {
 
                     //for migrain
 
-                    if ((autorec1.equals(mig1)) && (autorec2.equals(mig2)) ||
+                    else if ((autorec1.equals(mig1)) && (autorec2.equals(mig2)) ||
                             (autorec1.equals(mig1)) && (autorec3.equals(mig3))||
                             (autorec2.equals(mig2)) && (autorec3.equals(mig3))||
                             (autorec1.equals(mig1)) && (autorec2.equals(mig2))  && (autorec3.equals(mig3)) ){
@@ -227,7 +227,7 @@ public class DiseaseDetectionActivity extends AppCompatActivity {
 
                     //for diarrhea
 
-                    if ((autorec1.equals(dia1)) && (autorec2.equals(dia2)) ||
+                    else if ((autorec1.equals(dia1)) && (autorec2.equals(dia2)) ||
                             (autorec1.equals(dia1)) && (autorec3.equals(mig3))||
                             (autorec2.equals(dia2)) && (autorec3.equals(mig3))||
                             (autorec1.equals(dia1)) && (autorec2.equals(dia2))  && (autorec3.equals(mig3)) ){
@@ -243,7 +243,7 @@ public class DiseaseDetectionActivity extends AppCompatActivity {
 
                     //for Typhoid
 
-                    if ((autorec1.equals(typ1)) && (autorec2.equals(typ2)) ||
+                    else if ((autorec1.equals(typ1)) && (autorec2.equals(typ2)) ||
                             (autorec1.equals(typ1)) && (autorec3.equals(typ3))||
                             (autorec2.equals(typ2)) && (autorec3.equals(typ3))||
                             (autorec1.equals(typ1)) && (autorec2.equals(typ2))  && (autorec3.equals(typ3)) ){
@@ -260,7 +260,7 @@ public class DiseaseDetectionActivity extends AppCompatActivity {
 
                     //chiken Pox
 
-                    if ((autorec1.equals(pox1)) && (autorec2.equals(pox2)) ||
+                    else if ((autorec1.equals(pox1)) && (autorec2.equals(pox2)) ||
                             (autorec1.equals(pox1)) && (autorec3.equals(pox3))||
                             (autorec2.equals(pox2)) && (autorec3.equals(pox3))||
                             (autorec1.equals(pox1)) && (autorec2.equals(pox2))  && (autorec3.equals(pox3)) ){
@@ -276,7 +276,7 @@ public class DiseaseDetectionActivity extends AppCompatActivity {
 
                     //for dengu
 
-                    if ((autorec1.equals(den1)) && (autorec2.equals(den2)) ||
+                    else if ((autorec1.equals(den1)) && (autorec2.equals(den2)) ||
                             (autorec1.equals(den1)) && (autorec3.equals(den3))||
                             (autorec2.equals(den2)) && (autorec3.equals(den3))||
                             (autorec1.equals(den1)) && (autorec2.equals(den2))  && (autorec3.equals(den3)) ){
@@ -293,7 +293,7 @@ public class DiseaseDetectionActivity extends AppCompatActivity {
 
                     //for chikungunya
 
-                    if ((autorec1.equals(chi1)) && (autorec2.equals(chi2)) ||
+                    else if ((autorec1.equals(chi1)) && (autorec2.equals(chi2)) ||
                             (autorec1.equals(chi1)) && (autorec3.equals(chi3))||
                             (autorec2.equals(chi2)) && (autorec3.equals(chi3))||
                             (autorec1.equals(chi1)) && (autorec2.equals(chi2))  && (autorec3.equals(chi3)) ){
@@ -308,8 +308,18 @@ public class DiseaseDetectionActivity extends AppCompatActivity {
 //                                "We Suspect You are Suffering Influenja",Toast.LENGTH_LONG).show();
                     }
 
+                    //for no match
 
-                    //Toast.makeText(DiseaseDetectionActivity.this, autorec1+" "+ autorec2+" "+autorec3, Toast.LENGTH_LONG).show();
+                    else {
+                        MaterialStyledDialog nofound = new MaterialStyledDialog.Builder(DiseaseDetectionActivity.this)
+                                .setHeaderDrawable(R.drawable.nothingfound)
+                                .setTitle("Opps!!!").setDescription("oops")
+                                .setPositiveText("ok")
+                                .show();
+                        txttospch.speak("oops",TextToSpeech.QUEUE_FLUSH,null);
+
+
+                    }
 
 
                     forsymp1Tlayout.setError(null);
