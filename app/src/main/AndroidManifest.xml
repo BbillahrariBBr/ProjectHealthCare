@@ -22,6 +22,10 @@
         <activity android:name=".FoodPlanActivity" />
         <activity android:name=".PregnancyCareActivity" />
         <activity android:name=".EmergencyContactActivity" />
+        <activity android:name=".MaleActivity" />
+        <activity android:name=".FemaleActivity" />
+        <activity android:name=".ChildActivity" />
+        <activity android:name=".BabyActivity"></activity>
     </application>
 
 </manifest>
