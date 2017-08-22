@@ -24,10 +24,22 @@
         <activity android:name=".MaleActivity" />
         <activity android:name=".FemaleActivity" />
         <activity android:name=".ChildActivity" />
-        <activity android:name=".BabyActivity"/>
+        <activity android:name=".BabyActivity" />
         <activity android:name=".AmbulanceEmergency" />
-        <activity android:name=".HospitalEmergency">
+        <activity android:name=".HospitalEmergency"/>
+
+        <activity android:name=".PrimaryTreatment.PrimaryTreatmentActivity"/>
+        <activity android:name=".PrimaryTreatment.PrimaryTreatmentListActivity"/>
+        <activity android:name=".Food.FoodDetails"/>
+        <activity android:name=".Food.FoodListActivity"/>
+        <activity android:name=".Exercise.ExerciseDetails"/>
+        <activity android:name=".Exercise.ExerciseListActivity"/>
+        <activity android:name=".Labour.LabourDetails"/>
+        <activity android:name=".Labour.LabourListActivity"/>
+        <activity android:name=".Advice.AdviceDetails"/>
+        <activity android:name=".Advice.AdviceListActivity">
         </activity>
+
     </application>
 
 </manifest>

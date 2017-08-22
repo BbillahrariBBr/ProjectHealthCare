@@ -6,6 +6,8 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
+import com.example.bakibillah.projecthealthcare.PrimaryTreatment.PrimaryTreatmentListActivity;
+
 //import com.example.bakibillah.projecthealthcare;
 
 public class MainActivity extends AppCompatActivity {
@@ -23,10 +25,11 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        btnDiseaseDitection = (Button)findViewById(R.id.button_diease);
+        btnDiseaseDitection = (Button)findViewById(R.id.food_btn);
+        btnPregnancyCare = (Button)findViewById(R.id.advice_btn);
         btnEmergencyContact = (Button)findViewById(R.id.button_emergencycontacts);
-        btnFoodPlan = (Button)findViewById(R.id.button_pregnancycare);
-        btnPrimaryTreatment = (Button)findViewById(R.id.button_primarytreatment);
+        btnFoodPlan = (Button)findViewById(R.id.advice_btn);
+        btnPrimaryTreatment = (Button)findViewById(R.id.exercise_btn);
 
        // new PreferenceManager(this).clearPreference();
 //        finish();
@@ -34,22 +37,21 @@ public class MainActivity extends AppCompatActivity {
 
     public void OnButtonClickListenerMain(View view){
 
-        if (view.getId()==R.id.button_diease){
+        if (view.getId()==R.id.food_btn){
             Intent disesIntent = new Intent(MainActivity.this,DiseaseDetectionActivity.class);
             startActivity(disesIntent);
 
         }
-        if (view.getId()==R.id.button_primarytreatment){
-            //Intent ptreatIntent = new Intent(MainActivity.this, .class);
-            //startActivity(ptreatIntent);
-
-        }
-        if (view.getId()==R.id.button_foodanddiet){
+      if(view.getId()==R.id.exercise_btn){
+          Intent pIntent = new Intent(MainActivity.this,PrimaryTreatmentListActivity.class);
+          startActivity(pIntent);
+      }
+        if (view.getId()==R.id.labour_btn){
             Intent foodIntent = new Intent(MainActivity.this,FoodPlanActivity.class);
             startActivity(foodIntent);
 
         }
-        if (view.getId()==R.id.button_pregnancycare){
+        if (view.getId()==R.id.advice_btn){
             Intent pregnancyIntent = new Intent(MainActivity.this,PregnancyCareActivity.class);
             startActivity(pregnancyIntent);
 
