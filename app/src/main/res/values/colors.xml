@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#3F51B5</color>
-    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorPrimary">#81c784</color>
+    <color name="colorPrimaryDark">#519657</color>
     <color name="colorAccent">#9C27B0</color>
     
     
@@ -28,7 +28,13 @@
     <item name="darkorange" type="color">#FFFF8800</item>
     <item name="darkred" type="color">#FFCC0000</item>
     <item name="white" type="color">#FFFFFF</item>
-    <item name="LimeGreen" type="color">#03a9f4</item>
+    <item name="LimeGreen" type="color">#4fc3f7</item>
+    <item name="Black" type="color">#000a12</item>
+    <item name="Ash" type="color">#78909c</item>
+    <item name="Gold" type="color">#FFD700</item>
+    <item name="Coral" type="color">#b25838</item>
+    <color name="ash">#78909c</color>
+    <color name="darkBlue">#021b60</color>
 
     <!-- Finish Tusar Color -->
 

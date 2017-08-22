@@ -6,6 +6,8 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
+//import com.example.bakibillah.projecthealthcare;
+
 public class MainActivity extends AppCompatActivity {
 
 
@@ -38,8 +40,8 @@ public class MainActivity extends AppCompatActivity {
 
         }
         if (view.getId()==R.id.button_primarytreatment){
-            Intent ptreatIntent = new Intent(MainActivity.this,PrimaryTreatmentActivity.class);
-            startActivity(ptreatIntent);
+            //Intent ptreatIntent = new Intent(MainActivity.this, .class);
+            //startActivity(ptreatIntent);
 
         }
         if (view.getId()==R.id.button_foodanddiet){

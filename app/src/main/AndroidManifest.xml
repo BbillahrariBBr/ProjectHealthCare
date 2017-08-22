@@ -18,14 +18,16 @@
             </intent-filter>
         </activity>
         <activity android:name=".DiseaseDetectionActivity" />
-        <activity android:name=".PrimaryTreatmentActivity" />
         <activity android:name=".FoodPlanActivity" />
         <activity android:name=".PregnancyCareActivity" />
         <activity android:name=".EmergencyContactActivity" />
         <activity android:name=".MaleActivity" />
         <activity android:name=".FemaleActivity" />
         <activity android:name=".ChildActivity" />
-        <activity android:name=".BabyActivity"></activity>
+        <activity android:name=".BabyActivity"/>
+        <activity android:name=".AmbulanceEmergency" />
+        <activity android:name=".HospitalEmergency">
+        </activity>
     </application>
 
 </manifest>
