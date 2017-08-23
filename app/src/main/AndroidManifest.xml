@@ -34,8 +34,8 @@
         <activity android:name=".Food.FoodListActivity"/>
         <activity android:name=".Exercise.ExerciseDetails"/>
         <activity android:name=".Exercise.ExerciseListActivity"/>
-        <activity android:name=".Labour.LabourDetails"/>
-        <activity android:name=".Labour.LabourListActivity"/>
+        <activity android:name=".Labour.LabourListActivity"></activity>
+        <activity android:name=".Labour.LabourDetails"></activity>
         <activity android:name=".Advice.AdviceDetails"/>
         <activity android:name=".Advice.AdviceListActivity">
         </activity>
