@@ -82,7 +82,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="টেবিল চামচের প্রায় ২.৫ চামচ (৪৫গ্রাম)"
+                android:text="৪৫গ্রাম"
                 android:textAlignment="textEnd" />
         </TableRow>
 
@@ -135,7 +135,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="৫। শাক পাতা ও অন্যান্য সবজি ভাতের সাথে"
+                android:text="৫। শাক সবজি অন্যান্য  ভাতের সাথে"
                 android:textAlignment="textStart" />
 
             <TextView
@@ -154,14 +154,14 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="৬। পাকা কলা"
+                android:text=" ৬। পাকা কলা"
                 android:textAlignment="textStart" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="১টা (ছোট)"
+                android:text="১টা ছোট"
                 android:textAlignment="textEnd" />
         </TableRow>
 
@@ -194,7 +194,8 @@
         android:layout_height="wrap_content"
         android:layout_marginLeft="8dp"
         android:layout_marginRight="8dp"
-        android:text="Button"
+        android:text="Ok"
+        android:background="@drawable/button_bg"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"

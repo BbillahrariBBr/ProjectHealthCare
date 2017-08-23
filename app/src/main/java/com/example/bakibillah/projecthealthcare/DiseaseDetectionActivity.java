@@ -38,20 +38,20 @@ public class DiseaseDetectionActivity extends AppCompatActivity {
 
     //for Chikuntunya
 
-    String chi1 = "fever(sometimes as high as 104°F)";
+    String chi1 = "fever sometimes as high as 104°F";
     String chi2 = "joint pain";
     String chi3 = "swelling around the joints";
 
     //for dengu
 
-    String den1 = "sudden,high fever(up to 106 degrees Fahrenheit)";
+    String den1 = "sudden,high fever up to 106 degrees Fahrenheit";
     String den2 = "severe headache";
     String den3 = "swollen lymph glands";
 
   //for Chiken Pox
 
     String pox1 = "Loss of appetite, tiredness and feeling sick";
-    String pox2 = "Spots (a rash)";
+    String pox2 = "Spots or a rash";
     String pox3 = "Muscle aches";
 
    //for Typhoid
@@ -72,7 +72,7 @@ public class DiseaseDetectionActivity extends AppCompatActivity {
     String mig2 = "blurred vision";
     String mig3 = "nausea and vomiting";
 
-    String[] textlayout1 = {"fever(sometimes as high as 104°F)", "sudden,high fever(up to 106 degrees Fahrenheit)",
+    String[] textlayout1 = {"fever sometimes as high as 104°F", "sudden,high fever up to 106 degrees Fahrenheit",
             "Fever over 100.4 F", "Loss of appetite, tiredness and feeling sick",
             "Fever that starts low and increases daily, possibly reaching as high as 104.9 F "
             , "Bloating in belly", "Pain on one side or both side on head"};
@@ -84,7 +84,7 @@ public class DiseaseDetectionActivity extends AppCompatActivity {
             "cought",};
 
 
-    String[] textlayout2 = {"blurred vision", "Watery stools", "Diarrhea or constipation", "Spots (a rash)",
+    String[] textlayout2 = {"blurred vision", "Watery stools", "Diarrhea or constipation", "Spots or a rash",
             "Sore throat", "severe headache", "joint pain"};
     //
 //
